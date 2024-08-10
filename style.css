@@ -15,7 +15,7 @@ body{
 .flex-box{
     display: flex;
    margin-top: 10px;
-   flex-wrap: wrap;
+ 
    
 
 }
@@ -26,7 +26,7 @@ body{
     background-color: rgb(243, 222, 222);
     padding: 15px;
     border-top: 2px solid blue;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
    
 }
 
@@ -83,7 +83,7 @@ color: green;
 .fa-twitter{
     color: #0862F7;
 }
-@media (max-width:768px;)(min-width:1420px) {
+@media (max-width:768px;)(min-width:400px) {
     .container{
         max-width: 60%;
         margin: 0 auto;
